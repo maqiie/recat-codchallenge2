@@ -1,20 +1,11 @@
-
 import React from "react"
 import BotsPage from "./containers/BotsPage"
-import './App.css';
+import "./App.css"
 
-function App() {
+export default function App() {
   return (
-   
-      <div className="App">
-        <BotsPage />
-      </div>
-    )
-  
-  
+    <div className="App">
+      <BotsPage />
+    </div>
+  )
 }
-
-export default App;
-
-
-
